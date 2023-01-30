@@ -2,7 +2,7 @@ body {
   background-color: grey;
 }
 .bloc {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,7 +16,7 @@ body {
   font-weight: bold;
   color: aliceblue;
   height: 100px;
-  width: auto;
+  width: 100%;
   background-color: #333333;
   margin: 0 auto;
 }
@@ -102,4 +102,18 @@ body {
 }
 .end p span {
   font-weight: bold;
+}
+
+/* responsive ------------------------------------- */
+
+@media (max-width: 1087px) {
+  .job {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    height: 250px;
+    margin: 0 20px 50px 0;
+    background-color: white;
+    /* border: 5px solid black; */
+  }
 }

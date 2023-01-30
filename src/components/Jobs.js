@@ -6,8 +6,8 @@ const Jobs = (props) => {
     <div className="container">
       <div className="job">
         <Job
-          className="Full Time Sales"
-          title="Associate-Sydney boutique"
+          className=""
+          title="Full Time Sales - Associate-Sydney boutique"
           contracType="CDI"
           country="Australie"
           city="Sydney"
@@ -15,8 +15,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Agent de sécurité"
-          title="Pantin"
+          className=""
+          title="Agent de sécurité - Pantin"
           contracType="CDI"
           country="France"
           city="Pantin"
@@ -24,8 +24,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Responsable d'Atelier (H/F)"
-          title=""
+          className=""
+          title="Responsable d'Atelier (H/F)"
           contracType="CDD"
           country="France"
           city="Paris"
@@ -33,8 +33,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Chef de Projets"
-          title=""
+          className=""
+          title="Chef de Projets"
           contracType="CDD"
           country="France"
           city="Paris"
@@ -42,8 +42,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Développeur React.js"
-          title=""
+          className=""
+          title="Développeur React.js"
           contracType="CDI"
           country="France"
           city="Paris"
@@ -51,8 +51,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Sales Associate"
-          title="Stockholm"
+          className=""
+          title="Sales Associate - Stockholm"
           contracType="CDI"
           country="Suède"
           city="Stockholm"
@@ -60,8 +60,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Vendeur/se - Crans"
-          title="Montana"
+          className=""
+          title="Vendeur/se - Crans-Montana"
           contracType="CDI"
           country="Suisse"
           city="Crans-Montana"
@@ -69,8 +69,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="CRM & Data Quality"
-          title="Analyst"
+          className=""
+          title="CRM & Data Quality Analyst"
           contracType="CDI"
           country="USA"
           city="New-York"
@@ -78,8 +78,8 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className="Infirmier (H/F)"
-          title=""
+          className=""
+          title="Infirmier (H/F)"
           contracType="CDI"
           country="France"
           city="Pantin"
