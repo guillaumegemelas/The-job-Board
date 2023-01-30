@@ -8,7 +8,10 @@ function App() {
       <header className="title">The Job Board</header>
       <Jobs />
       <footer className="end">
-        <p>Made with React at Le Reacteur by Guillaume</p>
+        <p>
+          Made with <span>React </span> at <span>Le Reacteur </span> by{" "}
+          <span>Guillaume</span>
+        </p>
       </footer>
     </div>
   );
