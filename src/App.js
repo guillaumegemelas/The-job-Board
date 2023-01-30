@@ -1,5 +1,5 @@
 import "./App.css";
-import Job from "./components/Job";
+
 import Jobs from "./components/Jobs";
 
 function App() {
