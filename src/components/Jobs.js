@@ -6,7 +6,7 @@ const Jobs = (props) => {
     <div className="container">
       <div className="job">
         <Job
-          className=""
+          color="red"
           title="Full Time Sales - Associate-Sydney boutique"
           contracType="CDI"
           country="Australie"
@@ -15,7 +15,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="green"
           title="Agent de sécurité - Pantin"
           contracType="CDI"
           country="France"
@@ -24,7 +24,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="yellow"
           title="Responsable d'Atelier (H/F)"
           contracType="CDD"
           country="France"
@@ -33,7 +33,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="blue"
           title="Chef de Projets"
           contracType="CDD"
           country="France"
@@ -42,7 +42,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="pink"
           title="Développeur React.js"
           contracType="CDI"
           country="France"
@@ -51,7 +51,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="red"
           title="Sales Associate - Stockholm"
           contracType="CDI"
           country="Suède"
@@ -60,7 +60,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          className="green"
           title="Vendeur/se - Crans-Montana"
           contracType="CDI"
           country="Suisse"
@@ -69,7 +69,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="yellow"
           title="CRM & Data Quality Analyst"
           contracType="CDI"
           country="USA"
@@ -78,7 +78,7 @@ const Jobs = (props) => {
       </div>
       <div className="job">
         <Job
-          className=""
+          color="blue"
           title="Infirmier (H/F)"
           contracType="CDI"
           country="France"
