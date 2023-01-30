@@ -30,7 +30,7 @@ body {
   padding: 60px 100px 60px 100px;
 }
 
-.item {
+.job {
   display: flex;
   font-size: 15px;
   width: 250px;
@@ -40,31 +40,31 @@ body {
   /* border: 5px solid black; */
 }
 
-.item:nth-child(1) {
+.job:nth-child(1) {
   border: 8px solid red;
 }
-.item:nth-child(6) {
+.job:nth-child(6) {
   border: 8px solid red;
 }
-.item:nth-child(2) {
+.job:nth-child(2) {
   border: 8px solid #3ea535;
 }
-.item:nth-child(7) {
+.job:nth-child(7) {
   border: 8px solid #3ea535;
 }
-.item:nth-child(3) {
+.job:nth-child(3) {
   border: 8px solid yellow;
 }
-.item:nth-child(8) {
+.job:nth-child(8) {
   border: 8px solid yellow;
 }
-.item:nth-child(4) {
+.job:nth-child(4) {
   border: 8px solid #039fe3;
 }
-.item:nth-child(9) {
+.job:nth-child(9) {
   border: 8px solid #039fe3;
 }
-.item:nth-child(5) {
+.job:nth-child(5) {
   border: 8px solid #f8c5af;
 }
 
