@@ -1,0 +1,37 @@
+.bloc {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  height: 100px;
+  width: auto;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(173, 173, 221);
+  width: auto;
+  padding: 60px 100px 60px 100px;
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  margin: 0 20px 50px 0;
+  background-color: pink;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: auto;
+  background-color: #c4c4c4;
+  margin: 0 auto;
+}
