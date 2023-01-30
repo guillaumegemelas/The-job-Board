@@ -1,12 +1,23 @@
+body {
+  background-color: grey;
+}
 .bloc {
   width: 1100px;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: aliceblue;
   height: 100px;
   width: auto;
-  background-color: grey;
+  background-color: #333333;
   margin: 0 auto;
 }
 
@@ -14,16 +25,67 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgb(173, 173, 221);
+  background-color: white;
   width: auto;
   padding: 60px 100px 60px 100px;
 }
 
 .item {
+  display: flex;
+  font-size: 15px;
   width: 250px;
   height: 250px;
   margin: 0 20px 50px 0;
-  background-color: pink;
+  background-color: white;
+  /* border: 5px solid black; */
+}
+
+.item:nth-child(1) {
+  border: 8px solid red;
+}
+.item:nth-child(6) {
+  border: 8px solid red;
+}
+.item:nth-child(2) {
+  border: 8px solid #3ea535;
+}
+.item:nth-child(7) {
+  border: 8px solid #3ea535;
+}
+.item:nth-child(3) {
+  border: 8px solid yellow;
+}
+.item:nth-child(8) {
+  border: 8px solid yellow;
+}
+.item:nth-child(4) {
+  border: 8px solid #039fe3;
+}
+.item:nth-child(9) {
+  border: 8px solid #039fe3;
+}
+.item:nth-child(5) {
+  border: 8px solid #f8c5af;
+}
+
+.boxs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headBox {
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.endBox {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .end {
@@ -34,4 +96,7 @@
   width: auto;
   background-color: #c4c4c4;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
 }
